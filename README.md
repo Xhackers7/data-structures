@@ -1,14 +1,13 @@
-# Data Structures
+# DS - Algorithms
 
 ## Description
-    npm package that adds new data structures and improves existing ones.
+###### npm package that adds new data structures and improves existing ones.
 ## Installation
 `npm i ds-algorithms --save`
 
 ### Options
-    This package currently supports only data structure:
+###### This package currently supports:
 - Singly Linked List
-#### Usage
 ```js
 const dataStructures = require("ds-algorithms");
     
