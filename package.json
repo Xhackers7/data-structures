@@ -6,6 +6,10 @@
   "scripts": {
     "test": "node test.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Xhackers7/data-structures"
+  },
   "keywords": [
     "data",
     "data-structures",
@@ -20,5 +24,6 @@
     "algorithm"
   ],
   "author": "sreyas",
+  "homepage": "https://github.com/Xhackers7/data-structures",
   "license": "ISC"
 }
