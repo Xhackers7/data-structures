@@ -4,12 +4,13 @@
     npm package that adds new data structures and improves existing ones.
 ## Installation
 `npm i ds-algorithms --save`
-```const dataStructures = require("ds-algorithms");```
+
 ### Options
     This package currently supports only data structure:
-    Singly Linked List
+- Singly Linked List
 #### Usage
-```const dataStructures = require("ds-algorithms");
+```js
+const dataStructures = require("ds-algorithms");
     
 let SLinkedList = new dataStructures.SinglyLinkedList()
 
