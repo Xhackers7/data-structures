@@ -1,5 +1,5 @@
 {
-  "name": "data-structures",
+  "name": "ds-algorithms",
   "version": "1.0.0",
   "description": "Data Sturctures package for javascript that adds new data structures and improves existing ones ",
   "main": "index.js",
