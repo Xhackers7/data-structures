@@ -1,7 +1,7 @@
 const test = require("./test");
-module.exports = doSlinkedListTest = async (ll) => {
+module.exports = doDoubleLinkedListTest = async (ll) => {
   try {
-    console.log("\x1b[37m", "--------------------\n Singly Linked List");
+    console.log("\x1b[37m", "--------------------\n Doubly Linked List");
     await test(ll.isEmpty(), true, "Is Empty");
     ll.add(10);
     await test(ll.toArray(), 10, "Adding value");
@@ -65,13 +65,14 @@ module.exports = doSlinkedListTest = async (ll) => {
     ll.clearAll();
     await test(ll.isEmpty(), true, "Is Empty");
     await test(ll.toArray().join(""), [].join(""), "clearAll function");
+
     ll.add(3);
     ll.add(2);
     ll.add(4);
     ll.add(5);
     await test(ll.removeFrom(-2), 4, "remove from function negative value");
 
-    console.log("\x1b[32m", `✔ Singly Linked Lists passed all tests`);
+    console.log("\x1b[32m", `✔ Doubly Linked Lists passed all tests`);
   } catch (err) {
     throw err;
   }
