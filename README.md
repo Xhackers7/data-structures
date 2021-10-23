@@ -9,12 +9,7 @@
 
 ## Options
 ### Singly Linked List
-```mermaid
-graph LR
-A((2))  --> B((1))
-B --> C((7))
-C --> D((5))
-```
+![Visual representation of singly linked list - Source: geeksforgeeks.org](https://media.geeksforgeeks.org/wp-content/cdn-uploads/20200922124319/Singly-Linked-List1.png "Visual representation of singly linked list - Source: geeksforgeeks.org")
 In a singly linked list data is stored in individual objects named nodes. Each node has a value and link to the next node. The main advantage of using a linked list over an array is that we generally could add and delete data much faster and is stored at discontinuous locations in memory. A singly linked list is slightly limited in functionality than the doubly linked list but is generally faster than singly linked list.
 #### Methods:
 - add(value) - adds a value to the end of the linked list
@@ -29,15 +24,7 @@ In a singly linked list data is stored in individual objects named nodes. Each n
 - forEach(callback) - calls the callback function for each element in the list and passes the value of each node as an argument to the callback function
 - clearAll() - clears the list
 ### Doubly Linked Lists
-```mermaid
-graph LR
-A((2))  --> B((1))
-B --> A
-B --> C((7))
-C --> B
-C --> D((5))
-D --> C
-```
+![Visual representation of doubly linked list - Source: medium.com](https://miro.medium.com/max/2000/1*Rkn3q6HJoEkRO4T_SVlyuw.png "Visual representation of doubly linked list - Source: medium.com")
 In a doubly linked list data is stored in individual objects named nodes. Each node has a value and link to the next node and a link to the previous. The main advantage of using a linked list over an singly linked list is that its much more useful but slightly slower.
 #### Methods:
 - add(value) - adds a value to the end of the linked list

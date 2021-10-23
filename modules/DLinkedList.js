@@ -188,11 +188,11 @@ class DoublyLinkedList {
 
   forEach = (callBack) => {
     let currentNode = this.head;
-    while(currentNode !== null){
-      callBack(currentNode.value)
-      currentNode = currentNode.next
+    while (currentNode !== null) {
+      callBack(currentNode.value);
+      currentNode = currentNode.next;
     }
-  }
+  };
 
   isEmpty = () => {
     return this.head == null && this.tail == null && this.size == 0;

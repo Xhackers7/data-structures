@@ -157,11 +157,11 @@ class SinglyLinkedList {
 
   forEach = (callBack) => {
     let currentNode = this.head;
-    while(currentNode !== null){
-      callBack(currentNode.value)
-      currentNode = currentNode.next
+    while (currentNode !== null) {
+      callBack(currentNode.value);
+      currentNode = currentNode.next;
     }
-  }
+  };
 
   clearAll = () => {
     this.head = null;
