@@ -70,6 +70,7 @@ module.exports = doDoubleLinkedListTest = async (ll) => {
     ll.add(2);
     ll.add(4);
     ll.add(5);
+    ll.forEach(item => console.log(item))
     await test(ll.removeFrom(-2), 4, "remove from function negative value");
 
     console.log("\x1b[32m", `✔ Doubly Linked Lists passed all tests`);

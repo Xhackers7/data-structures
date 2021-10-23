@@ -155,6 +155,14 @@ class SinglyLinkedList {
     console.log(array.join(" --> "));
   };
 
+  forEach = (callBack) => {
+    let currentNode = this.head;
+    while(currentNode !== null){
+      callBack(currentNode.value)
+      currentNode = currentNode.next
+    }
+  }
+
   clearAll = () => {
     this.head = null;
     this.tail = null;
